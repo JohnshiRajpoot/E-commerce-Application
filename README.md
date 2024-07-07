@@ -4,38 +4,60 @@ This project represents a basic e-commerce application with user authentication,
 
 Technologies Used
 •	Frontend: React, Redux, React Router
+
 •	Backend: Node.js, Express, MongoDB
+
 •	Authentication: JWT
 
 Features
 •	User Authentication:
+
 o	Register new users
+
 o	Login existing users
+
 o	Logout functionality
+
 o	Protected routes for admin actions
 
 Folder Structure
+
 The project will follow a standard structure, with separate folders for frontend, backend, and shared resources.
+
 
 •	frontend
 o	src 
+
 	components
+
 	containers
+
 	actions
+
 	reducers
+
 	App.js
 
 
+
 •	backend
+
 o	server.js
+
 o	routes 
+
 	auth.js
+
 	products.js
+
 	cart.js
 
 o	models 
+
 	User.js
+
 	Product.js
+
 	CartItem.js
 
 o	config 
